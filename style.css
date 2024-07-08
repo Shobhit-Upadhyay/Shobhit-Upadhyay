@@ -1,0 +1,64 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set box-sizing to border-box for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Apply styles to specific elements */
+
+/* Header */
+header {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links div {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.footer-credits {
+    margin-top: 20px;
+}
+
+.footer-credits p {
+    color: #666;
+    font-size: 12px;
+}
+
+/* Add any additional styles as needed */
